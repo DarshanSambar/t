@@ -1,0 +1,21 @@
+On git commit 
+
+a snapshot is created 
+
+snapshot is representation of current state of your files
+
+saves only the changes for modified files and references unchanged files from previous snapshots.
+
+git reset --hard hash : 
+
+undo the changes from working directory and commit
+
+git revert hash
+
+creates a new commit which undoes changes made by specified commit hash
+
+
+rename last commit 
+
+git commit --amend -m "modified"
+
